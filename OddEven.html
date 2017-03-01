@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title></title>
+ 		<script> 
+			function compute() {
+				var input = document.getElementById("userInput").value;
+				var number = parseInt(input);
+
+				if (isNaN(number)) {
+				alert("Please enter a number.");
+				document.getElementById("userInput").value="";
+				document.getElementById("result").innerHTML = "";
+				document.getElementById("userInput").focus();
+				}
+			 
+				else if (number % 2 == 0 ) {
+				document.getElementById("result").innerHTML = "<h1>" + number + " is even number. </h1>";
+				}
+				else {
+					 document.getElementById("result").innerHTML = "<h1>" +number + " is odd number. </h1>";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h1> Enter a number </h1>
+		<input type="text" id="userInput" autofocus value = "" />
+		<input type="submit" value="Check" onclick="compute()" />
+		<br><br>
+		<p id="result">
+	</body>
+</html>

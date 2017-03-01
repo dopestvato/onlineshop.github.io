@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<title></title>
+		<link type="text/javascript" rel="javascript" href="javascript.js">
+	</head>
+
+	<body bgcolor=#0b110b>
+	<table class="font" align="center">
+		<form name="form">
+			<tr><td colspan="3" align="center" class="header">Purchasing Form</td></tr>
+			<tr><td><hr></td></tr>
+			<tr>
+				<td>
+					<tr>
+						<td colspan="3">Name</td>
+					</tr>
+					<tr>
+						<td><input type="text" value="First" id="firstName"></td>
+						<td><input type="text" value="Last" id="lastName"></td>
+					</tr>
+					<tr>
+						<td colspan="2">Email<br>
+							<input type="text" id="email">
+						</td>
+					</tr>
+
+					<tr>
+						<td>Shoes Model
+							<tr>
+								<td>
+									<input type="checkbox" name="Shoes" value="Nike Circa Shoes">Nike Circa Shoes<br>
+								</td>
+								<td>Quantity<br>
+									<input type="text" id="quantity">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" name="Shoes" value="Nike Huarache Run">Nike Huarache Run<br>
+								</td>
+								<td>Quantity<br>
+									<input type="text" id="quantity2">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" name="Shoes" value="FI IMPACT 2">FI IMPACT 2<br>
+								</td>	
+								<td>Quantity<br>
+									<input type="text" id="quantity3">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" name="Shoes" value="Nike Roshe">Nike Roshe<br>
+								</td>	
+								<td>Quantity<br>
+									<input type="text" id="quantity4">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" name="Shoes" value="Nike Air Presto">Nike Air Presto
+								</td>
+								<td>Quantity<br>
+									<input type="text" id="quantity5">
+								</td>
+							</tr>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Delivery Date<br>
+							<input type="date" id="date">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">Delivery Address<br>
+							<input type="text" value="Street Address" id="street"><br>
+							<input type="text" value="City" id="city"><br>
+							<input type="text" value="Postal/Zip Code" id="postal"><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">Payment Method<br>
+							<input type="radio" value="Paypal" id="pay" name="pay1">Paypal<br>
+							<input type="radio" value="GCash" id="pay" name="pay1">GCash<br>
+							<input type="button" class="button" value="Purchase" onclick="purchase(this.form);" style="margin-left: 80px;">
+						</td>
+					</tr>
+				</td>
+			</tr>
+		</form>
+	</table>
+	</body>
+</html>

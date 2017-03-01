@@ -1,0 +1,62 @@
+.button {
+    background-color: #232322;
+    border: none;
+    font-family: Geneva;
+    color: white;
+    padding: 15px 65px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.font {
+    font-family: Geneva;
+    font-size: 19px;
+    text-decoration-color: black;
+    color: #5d6060;
+}
+
+.header{
+    font-family: Geneva;
+    color: gray;
+    font-size: 30px;
+}
+hr{
+    width: 190%;
+}
+
+input[type=text] {
+    width: 100%;
+    font-family: Geneva;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+=    border-radius: 20px;
+    outline: none;
+}
+
+input[type=password]:focus {
+    border: 3px solid #555;
+}
